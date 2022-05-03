@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace Final_Project.Models
 {
@@ -12,12 +13,13 @@ namespace Final_Project.Models
         [StringLength(60, MinimumLength = 3)]
         public string Name {get; set;}
 
-        public double Price {get; set;}
+        [DataType(DataType.Currency)]
+        public decimal Price {get; set;}
 
         public string Type {get; set;}
 
-        [Required]
-        public int BrandID {get; set;}
-        public Brand Brand {get; set;}
+        public string Brand {get; set;}
+
+        public List<Review> Reviews {get; set;}
     }
 }

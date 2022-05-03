@@ -27,8 +27,8 @@ namespace Final_Project
         {
             services.AddRazorPages();
 
-            services.AddDbContext<BrandContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("BrandContext")));
+            services.AddDbContext<ProductContext>(options =>
+                options.UseSqlite(Configuration.GetConnectionString("ProductContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
