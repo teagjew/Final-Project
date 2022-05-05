@@ -5,11 +5,157 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<style>
+body {
+  background-image: url('https://localhost:5001/pics/Background5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+<h1 style="color:SeaGreen; font-family:Lucida Handwriting;">Details</h1>
 
 <div>
-    <h4>Product</h4>
     <hr />
+    <dl class="row">
+        <dt class="col-sm-10">
+            @if(Model.Product.Name == "Double Wear Foundation") { 
+            <td>
+                <img src="https://localhost:5001/pics/DoubleWear.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Pro Filt'r Soft Matte Longwear Liquid Foundation") {
+            <td>
+                <img src="https://localhost:5001/pics/ProFiltr.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Face Tape Foundation") {
+            <td>
+                <img src="https://localhost:5001/pics/FaceTape.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Good Apple Skin-Perfecting Hydrating Foundation Balm") {
+            <td>
+                <img src="https://localhost:5001/pics/GoodApple.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Morphe 2 Hint Skin Tint") {
+            <td>
+                <img src="https://localhost:5001/pics/HintSkinTint.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }@if(Model.Product.Name == "On Your Collar Plumping Lip Gloss") {
+            <td>
+                <img src="https://localhost:5001/pics/OnUrCollar.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Gloss Bomb Universal Lip Luminizer") {
+            <td>
+                <img src="https://localhost:5001/pics/GlossBomb.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Matte Liquid Lipstick") {
+            <td>
+                <img src="https://localhost:5001/pics/KylieLip.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Everlasting Liquid Lipstick") {
+            <td>
+                <img src="https://localhost:5001/pics/Everlastin.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Maracuja Juicy Lip Plump") {
+            <td>
+                <img src="https://localhost:5001/pics/Maracuja.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Midnight Shadows Eyeshadow Palette") {
+            <td>
+                <img src="https://localhost:5001/pics/Midnight.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Sweet Peach Eyeshadow Palette") {
+            <td>
+                <img src="https://localhost:5001/pics/SweetPeach.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Maneater Mascara") {
+            <td>
+                <img src="https://localhost:5001/pics/Maneater.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "35XO Natural Flirt Artistry Palette") {
+            <td>
+                <img src="https://localhost:5001/pics/35XO.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Bright Fix Eye Brightner") {
+            <td>
+                <img src="https://localhost:5001/pics/BrightEye.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Tattoo Liner") {
+            <td>
+                <img src="https://localhost:5001/pics/TattooLiner.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Pressed Powder Blush") {
+            <td>
+                <img src="https://localhost:5001/pics/KylieBlush.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Super Shock Blush") {
+            <td>
+                <img src="https://localhost:5001/pics/SuperShock.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Eclipse Cheek & Lip Stick") {
+            <td>
+                <img src="https://localhost:5001/pics/Eclipse.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Cheeks Out Freestyle Cream Bronzer") {
+            <td>
+                <img src="https://localhost:5001/pics/CheeksOut.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Amazonian Clay Matte Waterproof Bronzer") {
+            <td>
+                <img src="https://localhost:5001/pics/Amazonian.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Diamond Bomb All-Over Diamond Veil") {
+            <td>
+                <img src="https://localhost:5001/pics/DiamondBomb.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Super Shock Highlighter") {
+            <td>
+                <img src="https://localhost:5001/pics/SuperShockHighlighter.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Interstellar Highlighter Topper") {
+            <td>
+                <img src="https://localhost:5001/pics/Interstellar.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "All Nighter Face Makeup Primer") {
+            <td>
+                <img src="https://localhost:5001/pics/AllNighter.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Hangover Replenishing Face Primer") {
+            <td>
+                <img src="https://localhost:5001/pics/Hangover.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+            @if(Model.Product.Name == "Pro Filt'r Hydrating Primer") {
+            <td>
+                <img src="https://localhost:5001/pics/FentyPrimer.jpg" style="width:250px;height:270px;border-radius: 8px;"/>
+            </td>
+            }
+        </dt>
+    </dl>
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Product.Name)
@@ -34,25 +180,56 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Product.Brand)
-        </dd>
-        @foreach(var r in Model.Product.Reviews)
-        {
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => r.Comment)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => r.Comment)
-            </dd>
-            <dt class="col-sm-9">
-                <form method="post">
-                    <input type="hidden" asp-for="ReviewToDelete" value="@r.ReviewId" />
-                    <input type="submit" asp-page-handler="DeleteReview" asp-route-id="@Model.Product.ProductId" value="Delete Review" class="btn btn-danger btn-sm" />
-                </form>
-            </dt>
-        }
-    </dl>
-</div>
+        </dd>    
+        </dl>
+    </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Product.ProductId">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+        
+<hr />
+<h1 style="color:SeaGreen; font-family:Lucida Handwriting;"> Reviews </h1>
+<hr />
+@foreach(var r in Model.Product.Reviews)
+{
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => r.Comment) - @Html.DisplayFor(model => r.CustomerName) (@Html.DisplayFor(model => r.Date))
+    </dd>
+    <dt class="col-sm-9">
+        <form method="post">
+            <input type="hidden" asp-for="ReviewToDelete" value="@r.ReviewId" />
+            <input type="submit" asp-page-handler="DeleteReview" asp-route-id="@Model.Product.ProductId" value="Delete Review" class="btn btn-danger btn-sm" />
+        </form>
+    </dt>
+    <p></p>
+}
+
+
+<hr />
+<h1 style="color:SeaGreen; font-family:Lucida Handwriting;"> Add a Review </h1>
+<hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="CustomerName" class="control-label"></label>
+                    <input asp-for="CustomerName" class="form-control" />
+                    <span asp-validation-for="CustomerName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewReview" class="control-label"></label>
+                    <textarea asp-for="NewReview" class="form-control"></textarea>
+                    <span asp-validation-for="NewReview" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                <input type="hidden" asp-for="ProductToReview" value="@Model.Product.ProductId" />
+                <input type="submit" asp-page-handler="AddReview" asp-route-id="@Model.Product.ProductId" value="Add Review" class="btn btn-success btn-sm";>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<td>
+
+    <p></p>
+    <a asp-page="./Edit" asp-route-id="@Model.Product.ProductId" style="color:SeaGreen";>Edit</a> |
+    <a asp-page="./Index" style="color:SeaGreen">Back to List</a>
 </div>

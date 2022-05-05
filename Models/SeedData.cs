@@ -21,7 +21,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Double Wear Foundation",
-                        Price = 46.00M,
+                        Price = 46.00,
                         Type = "Foundation",
                         Brand = "Estee Lauder",
                         Reviews = new List<Review> {
@@ -34,7 +34,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Pro Filt'r Soft Matte Longwear Liquid Foundation",
-                        Price = 38.00M,
+                        Price = 38.00,
                         Type = "Foundation",
                         Brand = "Fenty"
                     },
@@ -42,7 +42,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Face Tape Foundation",
-                        Price = 40.00M,
+                        Price = 40.00,
                         Type = "Foundation",
                         Brand = "Tarte",
                         Reviews = new List<Review> {
@@ -55,7 +55,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Good Apple Skin-Perfecting Hydrating Foundation Balm",
-                        Price = 40.50M,
+                        Price = 40.50,
                         Type = "Foundation",
                         Brand = "KVD Beauty",
                         Reviews = new List<Review> {
@@ -71,7 +71,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Morphe 2 Hint Skin Tint",
-                        Price = 18.00M,
+                        Price = 18.00,
                         Type = "Foundation",
                         Brand = "Morphe",
                         Reviews = new List<Review> {
@@ -84,7 +84,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "On Your Collar Plumping Lip Gloss",
-                        Price = 17.00M,
+                        Price = 17.00,
                         Type = "Lips",
                         Brand = "R.E.M. Beauty",
                         Reviews = new List<Review> {
@@ -100,7 +100,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Gloss Bomb Universal Lip Luminizer",
-                        Price = 20.00M,
+                        Price = 20.00,
                         Type = "Lips",
                         Brand = "Fenty"
                     },
@@ -108,7 +108,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Matte Liquid Lipstick",
-                        Price = 17.00M,
+                        Price = 17.00,
                         Type = "Lips",
                         Brand = "Kylie Cosmetics",
                         Reviews = new List<Review> {
@@ -124,7 +124,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Everlasting Liquid Lipstick",
-                        Price = 21.00M,
+                        Price = 21.00,
                         Type = "Lips",
                         Brand = "KVD Beauty"
                     },
@@ -132,7 +132,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Maracuja Juicy Lip Plump",
-                        Price = 21.00M,
+                        Price = 21.00,
                         Type = "Lips",
                         Brand = "Tarte",
                         Reviews = new List<Review> {
@@ -145,7 +145,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Midnight Shadows Eyeshadow Palette",
-                        Price = 24.00M,
+                        Price = 24.00,
                         Type = "Eyes",
                         Brand = "R.E.M. Beauty",
                         Reviews = new List<Review> {
@@ -161,7 +161,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Sweet Peach Eyeshadow Palette",
-                        Price = 49.00M,
+                        Price = 49.00,
                         Type = "Eyes",
                         Brand = "Too Faced"
                     },
@@ -169,7 +169,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Maneater Mascara",
-                        Price = 24.00M,
+                        Price = 24.00,
                         Type = "Eyes",
                         Brand = "Tarte",
                         Reviews = new List<Review> {
@@ -182,7 +182,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "35XO Natural Flirt Artistry Palette",
-                        Price = 26.00M,
+                        Price = 26.00,
                         Type = "Eyes",
                         Brand = "Morphe",
                         Reviews = new List<Review> {
@@ -195,7 +195,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Bright Fix Eye Brightner",
-                        Price = 26.00M,
+                        Price = 26.00,
                         Type = "Eyes",
                         Brand = "Fenty"
                     },
@@ -203,7 +203,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Tattoo Liner",
-                        Price = 23.00M,
+                        Price = 23.00,
                         Type = "Eyes",
                         Brand = "KVD Beauty",
                         Reviews = new List<Review> {
@@ -216,7 +216,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Pressed Powder Blush",
-                        Price = 18.00M,
+                        Price = 18.00,
                         Type = "Blush",
                         Brand = "Kylie Cosmetics",
                         Reviews = new List<Review> {
@@ -229,7 +229,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Super Shock Blush",
-                        Price = 8.00M,
+                        Price = 8.00,
                         Type = "Blush",
                         Brand = "Colourpop",
                         Reviews = new List<Review> {
@@ -245,7 +245,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Eclipse Cheek & Lip Stick",
-                        Price = 18.00M,
+                        Price = 18.00,
                         Type = "Blush",
                         Brand = "R.E.M. Beauty"
                     },
@@ -253,7 +253,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Cheeks Out Freestyle Cream Bronzer",
-                        Price = 34.00M,
+                        Price = 34.00,
                         Type = "Bronzer",
                         Brand = "Fenty",
                         Reviews = new List<Review> {
@@ -266,7 +266,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Amazonian Clay Matte Waterproof Bronzer",
-                        Price = 30.00M,
+                        Price = 30.00,
                         Type = "Bronzer",
                         Brand = "Tarte",
                         Reviews = new List<Review> {
@@ -279,7 +279,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Diamond Bomb All-Over Diamond Veil",
-                        Price = 40.00M,
+                        Price = 40.00,
                         Type = "Highlighter",
                         Brand = "Fenty",
                         Reviews = new List<Review> {
@@ -292,7 +292,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Super Shock Highlighter",
-                        Price = 8.00M,
+                        Price = 8.00,
                         Type = "Highlighter",
                         Brand = "Colourpop",
                         Reviews = new List<Review> {
@@ -305,7 +305,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Interstellar Highlighter Topper",
-                        Price = 22.00M,
+                        Price = 22.00,
                         Type = "Highlighter",
                         Brand = "R.E.M. Beauty"
                     },
@@ -313,7 +313,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "All Nighter Face Makeup Primer",
-                        Price = 36.00M,
+                        Price = 36.00,
                         Type = "Primer",
                         Brand = "Urban Decay",
                         Reviews = new List<Review> {
@@ -326,7 +326,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Hangover Replenishing Face Primer",
-                        Price = 36.00M,
+                        Price = 36.00,
                         Type = "Primer",
                         Brand = "Too Faced",
                         Reviews = new List<Review> {
@@ -339,7 +339,7 @@ namespace Final_Project.Models
                     new Product
                     {
                         Name = "Pro Filt'r Hydrating Primer",
-                        Price = 34.00M,
+                        Price = 34.00,
                         Type = "Primer",
                         Brand = "Fenty"
                     }

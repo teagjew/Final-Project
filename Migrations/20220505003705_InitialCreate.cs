@@ -14,7 +14,7 @@ namespace Final_Project.Migrations
                     ProductId = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(maxLength: 60, nullable: false),
-                    Price = table.Column<decimal>(nullable: false),
+                    Price = table.Column<double>(nullable: false),
                     Type = table.Column<string>(nullable: true),
                     Brand = table.Column<string>(nullable: true)
                 },
