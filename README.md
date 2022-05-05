@@ -1,1 +1,3 @@
 # Final-Project
+
+This is a website that lists cosmetic products for sale. On the Shop page there is an option to search or sort items by price. There are details for each product including the name, type, price, brand, and a picture of the product.  Within the details page every product has a review section where customers can add or delete reviews. There is also a contact page with a form customers can fill out and submit.
